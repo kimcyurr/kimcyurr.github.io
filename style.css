@@ -32,6 +32,10 @@ body{
     padding: 40px;
 }  
 
+p .line{
+    border-bottom: 2px;
+}
+
 .contact-info{
     margin-top: 70px;
 }
