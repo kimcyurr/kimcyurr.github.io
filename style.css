@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+.container{
+    position: relative;
+    background: lightblue;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    
+}
+
+.container .left-side{
+    background: #003147;
+    padding: 40px;
+    
+    
+}
+
+.container .right-side{
+    background: white;
+    padding: 40px;
+}  
+
+.contact-info{
+    margin-top: 70px;
+}
+
+.education{
+    margin-top: 300px;
+}
+
+p{
+    border-bottom: 1px solid lightskyblue;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.content{
+    
+}
